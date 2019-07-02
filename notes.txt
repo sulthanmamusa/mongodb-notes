@@ -1,0 +1,42 @@
+1. mongo command in cmd enter
+
+> show dbs
+
+> use arcticfox
+
+> show collections
+
+> db.users.find()
+
+> db.users.findOne({})
+
+> db.users.insert({}) 
+
+if it is an object then it is equal to insertOne 
+
+else if it is an array then it is equal to insertMany
+
+> db.users.insertOne({key:value,......})
+
+> db.users.insertMany([{key:value,......}, {key:value....},.....])
+
+> db.users.update({},{$set:{}}) 
+
+if it is an object then it is equal to updateOne
+
+else if it is an array then it is equal to updateMany
+
+> db.users.updateOne({name:"sulthan"}, {$set: {name: "sulthan m"}})
+
+> db.users.updateMany({name:"sulthan"}, {$set: {name: "sulthan m"}})
+
+> db.users.delete({}) 
+
+if it is an object then it is equal to deleteOne
+
+else if it is an array then it is equal to deleteMany
+
+> db.users.deleteOne({firstName:"sulthan"})
+
+> db.users.deleteMany({})
+
