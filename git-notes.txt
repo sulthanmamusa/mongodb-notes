@@ -1,0 +1,20 @@
+1. git init
+
+2. git add .
+
+3. git commit -am "first commit"
+
+4. git remote add origin https://github.com/sulthanmamusa/notes.git
+
+5. git pull origin master
+
+6. git push origin master
+
+7. git reset --hard
+
+8. git staus
+
+9. git remote -v
+
+
+
