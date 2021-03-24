@@ -14,3 +14,39 @@ npm i bootstrap
 ng add @angular/material --project admin-ui
 
 ng add @angular/pwa --project admin-ui
+
+
+ng add @ngrx/store@latest --minimal false --project admin-ui
+
+ng add @ngrx/store-devtools@latest --project admin-ui
+
+ng add @ngrx/effects@latest --project admin-ui
+
+ng add @ngrx/router-store@latest --project admin-ui
+
+ng add @ngrx/data@latest --project admin-ui
+
+
+ng add @angular/material --project app-ui
+
+ng add @angular/pwa --project app-ui
+
+ng add @ngrx/store@latest --minimal false --project app-ui
+
+ng add @ngrx/store-devtools@latest --project app-ui
+
+ng add @ngrx/effects@latest --project app-ui
+
+ng add @ngrx/router-store@latest --project app-ui
+
+ng add @ngrx/data@latest --project app-ui
+
+
+
+ng add @ngrx/entity@latest
+
+ng add @ngrx/schematics@latest
+
+ng add @ngrx/component-store@latest
+
+ng add @ngrx/component@latest
