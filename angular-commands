@@ -1,1 +1,16 @@
 The following is the commands for angular
+
+
+created two application with routing and added bootstrap, angular material, pwa and ngrx is pending and need to add
+
+ng new angular-workspace --createApplication=false
+
+ng g application admin-ui --routing=true --style=scss
+
+ng g application app-ui --routing=true --style=scss
+
+npm i bootstrap
+
+ng add @angular/material --project admin-ui
+
+ng add @angular/pwa --project admin-ui
