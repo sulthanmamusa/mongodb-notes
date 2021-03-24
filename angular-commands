@@ -50,3 +50,66 @@ ng add @ngrx/schematics@latest
 ng add @ngrx/component-store@latest
 
 ng add @ngrx/component@latest
+
+
+
+
+ng g m Dashboard --route dashboard --module app.module --project admin-ui
+
+ng g m Auth --route auth --module app.module --project admin-ui
+
+ng g m Dashboard --route dashboard --module app.module --project app-ui
+
+ng g m Auth --route auth --module app.module --project app-ui
+
+
+<router-outlet></router-outlet> in app.component.html
+
+ng g c auth/login --project admin-ui
+
+ng g c auth/register --project admin-ui
+
+ng g c auth/forgot-password --project admin-ui
+
+
+
+ng g c auth/login --project app-ui
+
+ng g c auth/register --project app-ui
+
+ng g c auth/forgot-password --project app-ui
+
+
+ng g m shared --project admin-ui
+
+ng g m shared --project app-ui
+
+
+
+ng g c shared/components/header --project admin-ui
+
+ng g c shared/components/sidebar --project admin-ui
+
+ng g c shared/components/footer --project admin-ui
+
+
+ng g c shared/components/header --project app-ui
+
+ng g c shared/components/sidebar --project app-ui
+
+ng g c shared/components/footer --project app-ui
+
+
+ng g @angular/material:navigation shared/sidebar
+
+ng g @angular/material:dashboard dashboard/dashboard
+
+ng g @angular/material:address-form auth/login
+
+ng g @angular/material:address-form auth/register
+
+ng g @angular/material:address-form auth/forgot-password
+
+ng g @angular/material:table meters/meter-list
+
+ng g @angular/material:table devices/device-list
